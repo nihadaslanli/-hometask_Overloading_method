@@ -16,7 +16,7 @@
 //return sum;
 #endregion
 #region task2
-//string mevsim = FindSeason(7);
+//string fesil = FindSeason(4);
 //static string FindSeason(int ay)
 //{
 //    switch (ay)
@@ -39,11 +39,26 @@
 //            return "Qish";
 //        default:
 //            return "Duzgun Ayi daxil edin";
-            
+
 
 //    }
 //}
 
-//Console.WriteLine("fesil: " + mevsim);
+//Console.WriteLine("fesil: " + fesil);
+
+#endregion
+
+#region task3
+int[] num = { 4,5,1 };
+int sum = 1;
+for (int i = 0; i < num.Length; i++)
+   {
+    sum*= num[i];
+
+   }
+
+Console.WriteLine(sum);
+#endregion
+#region task4
 
 #endregion
