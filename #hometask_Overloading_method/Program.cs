@@ -64,13 +64,6 @@ if (number < 1000 && number > 99)
 }
 
 
-
-
-
-
-
-
-
 #endregion
 #region task4
 
