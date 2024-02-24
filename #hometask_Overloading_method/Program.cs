@@ -67,15 +67,15 @@
 #endregion
 #region task4
 
-int[] vaule = { 23, 4, 56 };
-for (int i = 0; i < vaule.Length; i++)
-{
-    if (vaule[0] < vaule[1] && vaule[0] < vaule[2])
-    { Console.WriteLine(vaule[0]); break; }
-    else if (vaule[1] < vaule[2] && vaule[1] < vaule[0])
-    { Console.WriteLine(vaule[1]); break; }
-    else if (vaule[2] < vaule[0] && vaule[2] < vaule[1])
-    { Console.WriteLine(vaule[2]); break; }
-}
+//int[] vaule = { 23, 4, 56 };
+//for (int i = 0; i < vaule.Length; i++)
+//{
+//    if (vaule[0] < vaule[1] && vaule[0] < vaule[2])
+//    { Console.WriteLine(vaule[0]); break; }
+//    else if (vaule[1] < vaule[2] && vaule[1] < vaule[0])
+//    { Console.WriteLine(vaule[1]); break; }
+//    else if (vaule[2] < vaule[0] && vaule[2] < vaule[1])
+//    { Console.WriteLine(vaule[2]); break; }
+//}
 
 #endregion
