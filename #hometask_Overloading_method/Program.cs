@@ -49,16 +49,31 @@
 #endregion
 
 #region task3
-int[] num = { 4,5,1 };
-int sum = 1;
-for (int i = 0; i < num.Length; i++)
-   {
-    sum*= num[i];
 
-   }
+Console.Write("Üç reqemli eded daxil edin: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(sum);
+
+if (number < 1000 && number > 99)
+{
+    int tekliklermertebesi = number % 10;
+    int onluqlarmertebesi = (number / 10) % 10;
+    int yüzluklermertebesi = number / 100;
+    int cem = tekliklermertebesi * onluqlarmertebesi * yüzluklermertebesi;
+    Console.WriteLine(cem);
+}
+
+
+
+
+
+
+
+
+
 #endregion
 #region task4
+
+
 
 #endregion
